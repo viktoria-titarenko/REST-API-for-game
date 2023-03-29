@@ -1,0 +1,235 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebApplication1</name>
+    </assembly>
+    <members>
+        <member name="M:WebApplication1.Controllers.CellController.Add(WebApplication1.Models.Cell)">
+            <summary>
+            Добавление ячейки в базу данных
+            </summary>
+            <param name="cCell"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication1.Controllers.ConnectController.ConnectPost(WebApplication1.Models.Connect)">
+            <summary>
+            Полуучение ключа
+            </summary>
+            <param name="hello"></param>
+            <returns></returns>
+        </member>
+        <member name="T:WebApplication1.Migrations.InitialMigration">
+            <inheritdoc />
+        </member>
+        <member name="M:WebApplication1.Migrations.InitialMigration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:WebApplication1.Migrations.InitialMigration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:WebApplication1.Migrations.InitialMigration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:WebApplication1.Migrations.InitialMigration1">
+            <inheritdoc />
+        </member>
+        <member name="M:WebApplication1.Migrations.InitialMigration1.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:WebApplication1.Migrations.InitialMigration1.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:WebApplication1.Migrations.InitialMigration1.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:WebApplication1.Migrations.InitialMigration2">
+            <inheritdoc />
+        </member>
+        <member name="M:WebApplication1.Migrations.InitialMigration2.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:WebApplication1.Migrations.InitialMigration2.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:WebApplication1.Migrations.InitialMigration2.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:WebApplication1.Migrations.InitialMigration3">
+            <inheritdoc />
+        </member>
+        <member name="M:WebApplication1.Migrations.InitialMigration3.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:WebApplication1.Migrations.InitialMigration3.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:WebApplication1.Migrations.InitialMigration3.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:WebApplication1.Migrations.InitialMigration4">
+            <inheritdoc />
+        </member>
+        <member name="M:WebApplication1.Migrations.InitialMigration4.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:WebApplication1.Migrations.InitialMigration4.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:WebApplication1.Migrations.InitialMigration4.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:WebApplication1.Migrations.InitialMigration5">
+            <inheritdoc />
+        </member>
+        <member name="M:WebApplication1.Migrations.InitialMigration5.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:WebApplication1.Migrations.InitialMigration5.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:WebApplication1.Migrations.InitialMigration5.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:WebApplication1.Migrations.InitialMigration6">
+            <inheritdoc />
+        </member>
+        <member name="M:WebApplication1.Migrations.InitialMigration6.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:WebApplication1.Migrations.InitialMigration6.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:WebApplication1.Migrations.InitialMigration6.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:WebApplication1.Migrations.InitialMigration7">
+            <inheritdoc />
+        </member>
+        <member name="M:WebApplication1.Migrations.InitialMigration7.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:WebApplication1.Migrations.InitialMigration7.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:WebApplication1.Migrations.InitialMigration7.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:WebApplication1.Migrations.InitialMigration8">
+            <inheritdoc />
+        </member>
+        <member name="M:WebApplication1.Migrations.InitialMigration8.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:WebApplication1.Migrations.InitialMigration8.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:WebApplication1.Migrations.InitialMigration8.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:WebApplication1.CellService.IsKeyCorrectAsync(WebApplication1.Models.Cell,System.Threading.CancellationToken)">
+            <summary>
+            Данный метод проверяет корректность отправленный в запросе данных, таких как KeyGame, KeyPlayer, View.
+            </summary>
+            <param name="cell"></param>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:WebApplication1.CellService.ProcessAsync(WebApplication1.Models.Cell,System.Threading.CancellationToken)">
+            <summary>
+            Данный метод реализует процесс игры.
+            </summary>
+            <param name="cell"></param>
+            <returns></returns>
+            <exception cref="T:Microsoft.AspNetCore.Http.BadHttpRequestException"></exception>
+        </member>
+        <member name="M:WebApplication1.CellService.KeyExistsAsync(System.Int32,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Данный метод предназначен для проверки свободна ли ячейка.
+            </summary>
+            <param name="position"></param>
+            <param name="keyGame"></param>
+            <returns></returns>
+            
+        </member>
+        <member name="M:WebApplication1.CellService.AddCellAsync(System.Int32,System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Данный метод доьавляет в базу данных ход игрока.
+            </summary>
+            <param name="position"></param>
+            <param name="keyGame"></param>
+            <param name="keyPlayer"></param>
+        </member>
+        <member name="M:WebApplication1.CellService.GetPositionsPlayerAsync(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Данный метод получает все занятые ячейки игрком.
+            </summary>
+            <param name="keyPlayer"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication1.CellService.GetPositionAllAsync(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Данный метод получает все ячейки данной игры, для определения "Ничьи".
+            </summary>
+            <param name="keyGame"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication1.CellService.GetLastMoveAsync(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Данный метод получает вид игрока, который сделал последний ход в игре.
+            </summary>
+            <param name="keyGame"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication1.CellService.AddWinnerAsync(System.String,WebApplication1.Models.ViewType,System.Threading.CancellationToken)">
+            <summary>
+            Данный метод добавляет в таблицу данные о победителе игры.
+            </summary>
+            <param name="keyGame"></param>
+            <param name="win"></param>
+        </member>
+        <member name="M:WebApplication1.CellService.GetWinnerAsync(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Данный метод проверяет, есть ли в игре победитель(окончена ли игра).
+            </summary>
+            <param name="keyGame"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication1.Services.ConnectService.IsViewCorrectAsync(WebApplication1.Models.Connect,System.Threading.CancellationToken)">
+            <summary>
+            Данный метод осуществяет проверку на корректность вида игрока.
+            </summary>
+            <param name="connect"></param>
+            <returns></returns>
+            <exception cref="T:System.Exception"></exception>
+        </member>
+        <member name="M:WebApplication1.Services.ConnectService.GetKeyAsync(WebApplication1.Models.Connect,System.Threading.CancellationToken)">
+            <summary>
+            Данный метод позволяет получит KeyGame, KeyPlayer.
+            </summary>
+            <param name="connect"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication1.Services.ConnectService.GetRandomKey(WebApplication1.Models.Connect)">
+            <summary>
+            Данный метод генерирует рандомный ключ.
+            </summary>
+            <param name="connect"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebApplication1.Services.ConnectService.AddKeyAsync(System.String,System.String,WebApplication1.Models.ViewType,System.Threading.CancellationToken)">
+            <summary>
+            Данный метод добавляет в базу данных сгенерированные KeyGame, KeyPLayer, View.
+            </summary>
+            <param name="key"></param>
+            <param name="key2"></param>
+            <param name="viewType"></param>
+        </member>
+        <member name="M:WebApplication1.Services.ConnectService.GetCountKeyGameAsync(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Данный метод проверят сколько игроков создано для конкретной игры.
+            </summary>
+            <param name="connect"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
